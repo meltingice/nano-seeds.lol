@@ -1,3 +1,7 @@
+.wordBreak {
+  word-wrap: break-word;
+}
+
 .jumpToSeedInput {
   width: 500px !important;
 }

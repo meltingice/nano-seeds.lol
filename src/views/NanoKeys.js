@@ -28,7 +28,7 @@ export default function NanoKeys({ match }) {
     <Fragment>
       <div className="row mb-3">
         <div className="col">
-          <p className="text-center">
+          <p className={cx("text-center", styles.wordBreak)}>
             Page
             <br />
             <b>{match.params.page}</b>
@@ -42,10 +42,10 @@ export default function NanoKeys({ match }) {
       </div>
 
       <p className="mb-5">
-        Note: Every Nano seed can generate 2<sup>32</sup> - 1 addresses.
-        Obviously it's not feasible to check every one, so instead we only check
-        the first two. Most of the time the first account is used since it's the
-        default in all the wallets.
+        Every Nano seed can generate 2<sup>32</sup> - 1 addresses. Obviously
+        it's not feasible to check every one, so instead we only check the first
+        two. Most of the time the first account is used since it's the default
+        in all the wallets.
       </p>
 
       <JumpToSeed />

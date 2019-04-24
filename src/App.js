@@ -4,6 +4,8 @@ import { Route, Link } from "react-router-dom";
 import Index from "./views/Index";
 import NanoKeys from "./views/NanoKeys";
 
+import styles from "./App.module.css";
+
 function App() {
   return (
     <Fragment>
@@ -13,9 +15,39 @@ function App() {
         </Link>
       </nav>
 
-      <div className="container mt-5 pt-5">
+      <div className="container my-5 pt-5">
         <Route path="/" exact component={Index} />
         <Route path="/nano/:page" component={NanoKeys} />
+      </div>
+
+      <div className="container-fluid">
+        <hr />
+
+        <div className="row mb-3 align-items-center">
+          <div className="col">
+            <p className="mb-0">Created by Ryan LeFevre (@meltingice)</p>
+            <p>
+              Donations:{" "}
+              <a
+                className={styles.wordBreak}
+                href="https://nanocrawler.cc/explorer/account/xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh/history"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh
+              </a>
+            </p>
+          </div>
+          <div className="col-auto">
+            <a
+              href="https://github.com/meltingice/nano-seeds.lol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
+          </div>
+        </div>
       </div>
     </Fragment>
   );

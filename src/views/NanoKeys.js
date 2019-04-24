@@ -90,6 +90,7 @@ const JumpToSeed = withRouter(({ history }) => {
             )}
             placeholder="Jump to Seed"
             value={value}
+            maxLength={64}
             onChange={e => setValue(e.target.value)}
           />
           <button className="btn btn-primary">Go</button>

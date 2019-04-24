@@ -11,10 +11,12 @@ const cx = classNames.bind(styles);
 function App() {
   return (
     <Fragment>
-      <nav className="navbar fixed-top navbar-light bg-light">
-        <Link className="navbar-brand" to="/">
-          Nano-Seeds.lol
-        </Link>
+      <nav className="navbar fixed-top navbar-dark bg-dark">
+        <div className="container">
+          <Link className="navbar-brand" to="/">
+            Nano-Seeds.lol
+          </Link>
+        </div>
       </nav>
 
       <div className="container my-5 pt-5">

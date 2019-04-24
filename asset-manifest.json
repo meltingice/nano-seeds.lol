@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nano-keys.lol/static/css/main.da066056.chunk.css",
-    "main.js": "/nano-keys.lol/static/js/main.c238b636.chunk.js",
-    "main.js.map": "/nano-keys.lol/static/js/main.c238b636.chunk.js.map",
-    "runtime~main.js": "/nano-keys.lol/static/js/runtime~main.83c14f41.js",
-    "runtime~main.js.map": "/nano-keys.lol/static/js/runtime~main.83c14f41.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/nano-keys.lol/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.b3cc88f9.chunk.js": "/nano-keys.lol/static/js/2.b3cc88f9.chunk.js",
-    "static/js/2.b3cc88f9.chunk.js.map": "/nano-keys.lol/static/js/2.b3cc88f9.chunk.js.map",
-    "index.html": "/nano-keys.lol/index.html",
-    "precache-manifest.4dfc7d588ee97c0959f8b67ccdbb48a1.js": "/nano-keys.lol/precache-manifest.4dfc7d588ee97c0959f8b67ccdbb48a1.js",
-    "service-worker.js": "/nano-keys.lol/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/nano-keys.lol/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.da066056.chunk.css.map": "/nano-keys.lol/static/css/main.da066056.chunk.css.map"
+    "main.css": "/nano-seeds.lol/static/css/main.da066056.chunk.css",
+    "main.js": "/nano-seeds.lol/static/js/main.de5933d2.chunk.js",
+    "main.js.map": "/nano-seeds.lol/static/js/main.de5933d2.chunk.js.map",
+    "runtime~main.js": "/nano-seeds.lol/static/js/runtime~main.47aa0a96.js",
+    "runtime~main.js.map": "/nano-seeds.lol/static/js/runtime~main.47aa0a96.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/nano-seeds.lol/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.b3cc88f9.chunk.js": "/nano-seeds.lol/static/js/2.b3cc88f9.chunk.js",
+    "static/js/2.b3cc88f9.chunk.js.map": "/nano-seeds.lol/static/js/2.b3cc88f9.chunk.js.map",
+    "index.html": "/nano-seeds.lol/index.html",
+    "precache-manifest.fd0cf99a60b986f29d4e67274c5866f4.js": "/nano-seeds.lol/precache-manifest.fd0cf99a60b986f29d4e67274c5866f4.js",
+    "service-worker.js": "/nano-seeds.lol/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/nano-seeds.lol/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.da066056.chunk.css.map": "/nano-seeds.lol/static/css/main.da066056.chunk.css.map"
   }
 }

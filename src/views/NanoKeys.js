@@ -22,7 +22,7 @@ export default function NanoKeys({ match }) {
   const nextRandom = BigNumber.minimum(
     BigNumber.random(MAX_PAGES.toString(10).length).multipliedBy(MAX_PAGES),
     MAX_PAGES
-  );
+  ).toFixed(0);
 
   return (
     <Fragment>
@@ -127,7 +127,7 @@ const Navigation = ({ currentPage, nextRandom, className }) => (
             Previous
           </Link>
         )}
-        <Link className="btn btn-primary" to={`/nano/${nextRandom.toFixed(0)}`}>
+        <Link className="btn btn-primary" to={`/nano/${nextRandom}`}>
           Random
         </Link>
         {!currentPage.eq(MAX_PAGES) && (

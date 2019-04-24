@@ -55,6 +55,7 @@ export default class Account extends React.Component {
               this.props.address
             }/history`}
             target="_blank"
+            rel="noopener noreferrer"
           >
             {this.props.address}
           </a>

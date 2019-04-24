@@ -1,0 +1,8 @@
+.SeedContainer {
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
+.Seed {
+  word-wrap: break-word;
+}

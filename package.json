@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bignumber.js": "^8.1.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap.native": "^2.0.26",
+    "classnames": "^2.2.6",
+    "nanocurrency": "^2.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"
   },
   "scripts": {

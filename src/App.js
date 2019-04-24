@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import { Route, Link } from "react-router-dom";
+
+import Index from "./views/Index";
+import NanoKeys from "./views/NanoKeys";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <nav className="navbar fixed-top navbar-light bg-light">
+        <Link className="navbar-brand" to="/">
+          Nano-Seeds.lol
+        </Link>
+      </nav>
+
+      <div className="container mt-5 pt-5">
+        <Route path="/" exact component={Index} />
+        <Route path="/nano/:page" component={NanoKeys} />
+      </div>
+    </Fragment>
   );
 }
 

@@ -14,14 +14,14 @@ function App() {
       <nav className="navbar fixed-top navbar-dark bg-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Nano-Seeds.lol
+            Banano-Seeds.lol
           </Link>
         </div>
       </nav>
 
       <div className="container my-5 pt-5">
         <Route path="/" exact component={Index} />
-        <Route path="/nano/:page" component={NanoKeys} />
+        <Route path="/banano/:page" component={NanoKeys} />
       </div>
 
       <div className="container-fluid">
@@ -34,11 +34,11 @@ function App() {
               Donations:{" "}
               <a
                 className={cx("text-monospace", styles.wordBreak)}
-                href="https://nanocrawler.cc/explorer/account/xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh/history"
+                href="https://creeper.banano.cc/explorer/account/ban_1dpe11rjii8r4k448gbgfpbg18p8444edayaq4to3hsquha4qhy65cjbtk8b/history"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh
+                ban_1dpe11rjii8r4k448gbgfpbg18p8444edayaq4to3hsquha4qhy65cjbtk8b
               </a>
             </p>
           </div>

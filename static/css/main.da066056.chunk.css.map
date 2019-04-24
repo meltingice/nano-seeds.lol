@@ -1,0 +1,1 @@
+{"version":3,"sources":["Seed.module.css"],"names":[],"mappings":"AAAA,2BACE,qBAAsB,CACtB,uBACF,CAEA,kBACE,oBACF","file":"main.da066056.chunk.css","sourcesContent":[".SeedContainer {\n  border-left-width: 5px;\n  border-left-style: solid;\n}\n\n.Seed {\n  word-wrap: break-word;\n}\n"]}

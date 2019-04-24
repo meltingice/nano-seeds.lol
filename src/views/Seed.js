@@ -50,7 +50,9 @@ export default class Seed extends React.Component {
               <p className="mb-0">
                 <small>Seed</small>
               </p>
-              <p className={cx("text-monospace", styles.Seed)}>
+              <p
+                className={cx("text-monospace", "text-uppercase", styles.Seed)}
+              >
                 {this.props.seed}
               </p>
             </div>

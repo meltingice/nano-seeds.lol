@@ -4,7 +4,9 @@ import { Route, Link } from "react-router-dom";
 import Index from "./views/Index";
 import NanoKeys from "./views/NanoKeys";
 
+import classNames from "classnames/bind";
 import styles from "./App.module.css";
+const cx = classNames.bind(styles);
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
             <p>
               Donations:{" "}
               <a
-                className={styles.wordBreak}
+                className={cx("text-monospace", styles.wordBreak)}
                 href="https://nanocrawler.cc/explorer/account/xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh/history"
                 target="_blank"
                 rel="noopener noreferrer"

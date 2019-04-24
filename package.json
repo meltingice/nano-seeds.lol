@@ -2,13 +2,11 @@
   "name": "nano-seeds",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://meltingice.github.io/nano-seeds.lol",
   "dependencies": {
     "bignumber.js": "^8.1.1",
     "bootstrap": "^4.3.1",
     "bootstrap.native": "^2.0.26",
     "classnames": "^2.2.6",
-    "gh-pages": "^2.0.1",
     "nanocurrency": "^2.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -19,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

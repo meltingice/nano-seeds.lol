@@ -42,7 +42,7 @@ export default function NanoKeys({ match }) {
       </div>
 
       <p className="mb-5">
-        Every Nano seed can generate 2<sup>32</sup> - 1 addresses. Obviously
+        Every Banano seed can generate 2<sup>32</sup> - 1 addresses. Obviously
         it's not feasible to check every one, so instead we only check the first
         two. Most of the time the first account is used since it's the default
         in all the wallets.
@@ -75,7 +75,7 @@ const JumpToSeed = withRouter(({ history }) => {
       .plus(1)
       .toFixed(0);
 
-    history.push(`/nano/${page}`);
+    history.push(`/banano/${page}`);
   };
 
   return (
@@ -117,31 +117,31 @@ const Navigation = ({ currentPage, nextRandom, className }) => (
   <div className={cx(className, "row justify-content-center")}>
     <div className="col-auto">
       <div className="btn-group">
-        <Link className="btn btn-primary" to="/nano/1">
+        <Link className="btn btn-primary" to="/banano/1">
           First
         </Link>
         {currentPage.gt(1) && (
           <Link
             className="btn btn-primary"
-            to={`/nano/${currentPage.minus(1).toFixed(0)}`}
+            to={`/banano/${currentPage.minus(1).toFixed(0)}`}
           >
             Previous
           </Link>
         )}
-        <Link className="btn btn-primary" to={`/nano/${nextRandom}`}>
+        <Link className="btn btn-primary" to={`/banano/${nextRandom}`}>
           Random
         </Link>
         {!currentPage.eq(MAX_PAGES) && (
           <Link
             className="btn btn-primary"
-            to={`/nano/${currentPage.plus(1).toFixed(0)}`}
+            to={`/banano/${currentPage.plus(1).toFixed(0)}`}
           >
             Next
           </Link>
         )}
         <Link
           className="btn btn-primary"
-          to={`/nano/${MAX_PAGES.toString(10)}`}
+          to={`/banano/${MAX_PAGES.toString(10)}`}
         >
           Last
         </Link>

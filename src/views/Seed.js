@@ -16,7 +16,7 @@ export default class Seed extends React.Component {
   address(index) {
     const secretKey = nano.deriveSecretKey(this.props.seed, index);
     const publicKey = nano.derivePublicKey(secretKey);
-    return nano.deriveAddress(publicKey);
+    return nano.deriveAddress(publicKey).replace(/^xrb_/, "ban_");
   }
 
   get classes() {

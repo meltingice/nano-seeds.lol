@@ -9,7 +9,7 @@ export default class Account extends React.Component {
 
   async fetchData() {
     const resp = await fetch(
-      `https://api.nanocrawler.cc/account/${this.props.address}`
+      `https://api.creeper.banano.cc/account/${this.props.address}`
     );
 
     const data = await resp.json();
@@ -51,7 +51,7 @@ export default class Account extends React.Component {
         </p>
         <p className="text-monospace" style={{ wordWrap: "break-word" }}>
           <a
-            href={`https://nanocrawler.cc/explorer/account/${
+            href={`https://creeper.banano.cc/explorer/account/${
               this.props.address
             }/history`}
             target="_blank"
@@ -62,7 +62,7 @@ export default class Account extends React.Component {
         </p>
 
         <p>
-          {this.state.balance} NANO ({this.state.blocks} blocks)
+          {this.state.balance} BAN ({this.state.blocks} blocks)
         </p>
       </div>
     );

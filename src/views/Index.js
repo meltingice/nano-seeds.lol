@@ -6,7 +6,7 @@ export default function Index() {
     <Fragment>
       <div className="row">
         <div className="col">
-          <h1 className="display-4">Every Nano seed is on this website.</h1>
+          <h1 className="display-4">Every Banano seed is on this website.</h1>
 
           <p className="lead">
             Yes, your seed is on this website too, but don't worry, nobody will
@@ -18,7 +18,7 @@ export default function Index() {
 
       <div className="row mt-3">
         <div className="col">
-          <Link className="btn btn-lg btn-primary" to="/nano/1">
+          <Link className="btn btn-lg btn-primary" to="/banano/1">
             Begin
           </Link>
         </div>
@@ -26,7 +26,7 @@ export default function Index() {
 
       <div className="row mt-5">
         <div className="col">
-          <h2>How does Nano work?</h2>
+          <h2>How does Banano work?</h2>
           <p>
             A seed is 32 bytes of random data, usually displayed as a
             64-character hexidecimal string, that is used to deterministically
@@ -41,14 +41,13 @@ export default function Index() {
             more human readable addresses.
           </p>
           <p>
-            The Nano addresses that you are used to seeing are the public key,
+            The Banano addresses that you are used to seeing are the public key,
             but encoded with a special base 32 encoding algorithm that excludes
             certain characters to help avoid ambiguity when reading or copying.
             These are the addresses that start with{" "}
-            <span className="text-monospace">xrb_</span> or{" "}
-            <span className="text-monospace">nano_</span> (in fact, the prefix
-            is purely cosmetic). The final 8 characters of the address consist
-            of a checksum so that wallets or other applications can validate the
+            <span className="text-monospace">ban_</span> (in fact, the prefix is
+            purely cosmetic). The final 8 characters of the address consist of a
+            checksum so that wallets or other applications can validate the
             contents of the address before using.
           </p>
 
@@ -56,14 +55,14 @@ export default function Index() {
           <p>
             This website doesn't store a database of every seed, but instead
             generates them on the fly. The page number is used to calculate a
-            range of seeds to display, from which it derives the Nano addresses.
-            The account information is then checked from{" "}
+            range of seeds to display, from which it derives the Banano
+            addresses. The account information is then checked from{" "}
             <a
-              href="https://nanocrawler.cc"
+              href="https://creeper.banano.cc"
               target="_blank"
               rel="noopener noreferrer"
             >
-              NanoCrawler
+              Creeper
             </a>
             . Since every seed can generate 2<sup>32</sup> - 1 accounts, which
             would be impossible to check in a resonable amount of time, we only
